@@ -1,0 +1,245 @@
+.container {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 200px;
+}
+.image {
+  background-color: black;
+  height: 700px;
+}
+.image img {
+  height: 400px;
+  width: 350px;
+}
+.title {
+  background-color: rgb(249, 200, 21);
+  width: 300px;
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: -10px;
+  letter-spacing: 0.4em;
+}
+.intro {
+  color: white;
+  padding-left: 30px;
+}
+.education {
+  color: white;
+}
+
+.details {
+  background-color: rgb(219, 216, 216);
+  margin-top: -20px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.name {
+  background-color: rgb(219, 216, 216);
+  padding-left: 40px;
+  padding-top: 8px;
+  padding-bottom: 20px;
+  height: 372px;
+  width: 500px;
+}
+.color {
+  width: 40px;
+  height: 4px;
+  margin-left: 2px;
+  background-color: rgb(249, 197, 7);
+  border-color: rgb(250, 212, 77);
+}
+.ref {
+  display: flex;
+}
+.int {
+  display: flex;
+}
+.title1 {
+  background-color: rgb(249, 200, 21);
+  width: 220px;
+  text-align: center;
+  letter-spacing: 0.4em;
+  margin-top: -40px;
+  margin-bottom: 35px;
+}
+
+.education {
+  padding-left: 30px;
+}
+.education p {
+  margin-top: -15px;
+  color: rgb(202, 201, 201);
+}
+.image hr {
+  margin-left: 30px;
+}
+.works td {
+  font-weight: bold;
+}
+.line tr {
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-spacing: 0 20px;
+}
+
+.details .parent {
+  background-color: rgb(76, 73, 73);
+  height: 5px;
+  width: 150px;
+  margin-left: 30px;
+}
+.works {
+  margin-left: -35px;
+}
+.details .child1,
+.child2,
+.child3,
+.child4,
+.child5 {
+  background-color: rgb(249, 200, 21);
+  height: 5px;
+}
+.details .child1 {
+  width: 120px;
+}
+.details .child2 {
+  width: 110px;
+}
+.details .child3 {
+  width: 130px;
+}
+.details .child4 {
+  width: 115px;
+}
+.details .child5 {
+  width: 100px;
+}
+.image .color {
+  margin-left: 30px;
+}
+.parent {
+  position: relative;
+}
+
+.info {
+  display: flex;
+  margin-top: 20px;
+}
+.icons img {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.icons {
+  background-color: rgb(249, 200, 21);
+}
+.contact {
+  margin-left: 20px;
+  margin-top: -10px;
+}
+.contact p {
+  margin-top: -15px;
+}
+h1 {
+  font-size: 60px;
+}
+span {
+  font-weight: lighter;
+}
+.workexp {
+  width: 500px;
+  height: 380px;
+  padding-left: 40px;
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+.workexp .color {
+  margin-bottom: 30px;
+}
+.workexp h4 {
+  font-weight: 550;
+  color: rgb(44, 43, 43);
+}
+.workexp span {
+  background-color: rgb(249, 200, 21);
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+}
+.reference {
+  width: 500px;
+  padding-left: 40px;
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+.interest {
+  width: 500px;
+  padding-left: 40px;
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+.ref h4 {
+  font-weight: bold;
+}
+.ref p {
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+.ref2 {
+  padding-left: 100px;
+}
+.int h4 {
+  font-weight: bold;
+  color: rgb(51, 50, 50);
+}
+.final {
+  display: flex;
+  height: 60px;
+  margin-left: -10px;
+  padding-right: 70px;
+  margin-top: 20px;
+}
+.final img {
+  padding-right: 45px;
+}
+.int h4 {
+  padding-right: 70px;
+}
+.subchild1,
+.subchild2,
+.subchild3,
+.subchild4,
+.subchild5 {
+  height: 11px;
+  width: 3px;
+  background-color: rgb(249, 200, 21);
+  position: relative;
+  bottom: 3px;
+}
+.subchild1 {
+  left: 120px;
+}
+.subchild2 {
+  left: 110px;
+}
+.subchild3 {
+  left: 130px;
+}
+.subchild4 {
+  left: 115px;
+}
+.subchild5 {
+  left: 100px;
+}
